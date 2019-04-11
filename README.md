@@ -1,9 +1,7 @@
 # TCP chatroom with private chat function and a small betting game  
 # Chat room
 1. start the server(Server.java)
-2. open some client(Player.java), before joining the chatroom, you have to enter the IP of the Server e.g.127.0.0.1 (chatroom Server)  
-3.now you can chat in public chatroom, if you want to send private msg to some one, do like this @[Jay 127.0.0.1:53248]--hi how are you?  
-4.try to send 'COMMAND' to learn how to play with this simple game  
+2. open some client(Player.java), before joining the chatroom, you have to enter the IP of the Server e.g.127.0.0.1 (chatroom Server)  3.now you can chat in public chatroom, if you want to send private msg to some one, do like this @[Jay 127.0.0.1:53248]--hi how are you?  4.try to send 'COMMAND' to learn how to play with this simple game  
 # Join Game
 The game's idea is: each player can play with other player only once, it is a counting-backwards game, for example Player A and Player B
 match in a duel, counting is set to be starting from A or B randomly, and both A,B players will know who start counting first, player A 
